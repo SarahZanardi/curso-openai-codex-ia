@@ -24,3 +24,22 @@ if (instructorText) {
   ['Microsoft Fabric','Data Platforms','Oracle OCI','Google Cloud','SQL','PySpark'].forEach(label => { const tag = document.createElement('span'); tag.textContent = label; tags.appendChild(tag); });
   instructorText.after(tags);
 }
+
+const syllabus = [
+  ['Fundamentos e arquitetura', 'Compreenda como o OpenAI Codex funciona e onde aplicá-lo.'],
+  ['Engenharia de prompts', 'Crie e otimize prompts para obter códigos mais precisos.'],
+  ['Aplicações completas', 'Desenvolva projetos práticos com assistência de IA.'],
+  ['Debug automatizado', 'Identifique, debuge e corrija erros com mais agilidade.'],
+  ['Análise de dados', 'Aplique o Codex em tarefas complexas com dados e SQL.'],
+  ['Automação de processos', 'Transforme tarefas repetitivas em fluxos inteligentes.'],
+  ['Segurança e mitigação', 'Adote boas práticas e reduza riscos no desenvolvimento.'],
+  ['Projeto final hands-on', 'Consolide o aprendizado criando uma solução real.']
+];
+document.querySelectorAll('.learning-card').forEach((card, index) => {
+  if (!syllabus[index]) return;
+  const title = card.querySelector('h3'); const description = card.querySelector('p');
+  if (title) title.textContent = syllabus[index][0];
+  if (description) description.textContent = syllabus[index][1];
+});
+const portrait = document.querySelector('.portrait-inner');
+if (portrait) portrait.innerHTML = '<img src="assets/sarah-zanardi.jfif" alt="Sarah Zanardi, Data Engineer" loading="lazy">';
