@@ -43,3 +43,28 @@ document.querySelectorAll('.learning-card').forEach((card, index) => {
 });
 const portrait = document.querySelector('.portrait-inner');
 if (portrait) portrait.innerHTML = '<img src="assets/sarah-zanardi.jfif" alt="Sarah Zanardi, Data Engineer" loading="lazy">';
+
+// Navegação contextual e retorno rápido ao topo
+const header = document.querySelector('.site-header');
+const sectionLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+const linkedSections = sectionLinks.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+const updateNavigation = () => {
+  if (header) header.classList.toggle('scrolled', window.scrollY > 16);
+  let current = linkedSections[0]?.id;
+  linkedSections.forEach(section => { if (window.scrollY >= section.offsetTop - 150) current = section.id; });
+  sectionLinks.forEach(link => {
+    const active = link.getAttribute('href') === `#${current}`;
+    link.classList.toggle('active', active);
+    if (active) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
+  });
+};
+window.addEventListener('scroll', updateNavigation, { passive: true });
+updateNavigation();
+
+const backToTop = document.createElement('a');
+backToTop.className = 'back-to-top';
+backToTop.href = '#inicio';
+backToTop.setAttribute('aria-label', 'Voltar ao início');
+backToTop.textContent = '↑';
+document.body.appendChild(backToTop);
+window.addEventListener('scroll', () => backToTop.classList.toggle('show', window.scrollY > 650), { passive: true });
