@@ -6,4 +6,32 @@
 :root{--purple:#155eef}.eyebrow,.text-link,.quick-benefits li:before,.role,.social-links a,.audience-list span,.code b,.code em,.code i,.cursor{color:#155eef!important}.hero-visual .orb-one{background:#e7f0ff}.hero-visual .orb-two{background:#edf5ff}.floating-card span{background:linear-gradient(135deg,#155eef,#2e86de)}.final-cta{background:radial-gradient(circle at 25% 0,#24549d 0,transparent 35%),linear-gradient(115deg,#122b55,#155eef)}.final-cta h2 em{color:#b9d6ff}.light{color:#b9d6ff}.portrait{background:#eaf2ff}.portrait-dots{background-image:radial-gradient(#5b95ed 1.4px,transparent 1.4px)}
 .site-header.scrolled{box-shadow:0 8px 28px rgba(25,52,96,.08)}.nav-links a{position:relative}.nav-links a.active{color:#155eef}.nav-links a.active:after{content:'';position:absolute;left:0;right:0;bottom:-9px;height:2px;border-radius:2px;background:#155eef}.portrait{border-radius:20px;box-shadow:0 24px 50px rgba(24,62,118,.15)}.portrait-inner{width:210px;height:210px;border:5px solid #fff;box-shadow:0 14px 35px rgba(20,66,135,.22)}.instructor-copy{padding:8px 0}.stack-tags{margin-bottom:4px}.back-to-top{position:fixed;right:22px;bottom:22px;z-index:9;width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:#155eef;color:#fff;font-size:20px;font-weight:700;box-shadow:0 10px 24px rgba(21,94,239,.28);opacity:0;pointer-events:none;transform:translateY(10px);transition:.25s}.back-to-top.show{opacity:1;pointer-events:auto;transform:none}.learning-card,.benefits-card,.intro-note{border-radius:14px}.learning-card:focus-within,.button:focus-visible,.text-link:focus-visible,.nav-links a:focus-visible,.back-to-top:focus-visible{outline:3px solid #9fc2ff;outline-offset:3px}
 @media(max-width:650px){.nav-links a.active:after{bottom:-4px}.portrait-inner{width:180px;height:180px}.back-to-top{right:16px;bottom:16px}}
+
+/* Identidade final: clean, dark e sofisticada */
+:root{--ink:#0f172a;--muted:#64748b;--blue:#2563eb;--purple:#2563eb;--pale:#f8fafc;--line:#e2e8f0}
+body{color:#0f172a;background:#fff}
+.site-header{background:rgba(255,255,255,.94);border-color:#e2e8f0}
+.brand-mark{background:#0f172a}
+.button{background:linear-gradient(110deg,#2563eb,#0f4bbd);box-shadow:0 10px 24px rgba(37,99,235,.2)}
+.button:hover{box-shadow:0 16px 30px rgba(37,99,235,.28)}
+.method{background:#0b1220}
+.method .eyebrow,.method .steps span{color:#60a5fa!important}
+.accent-card{background:#0f172a;border-color:#0f172a}
+.final-cta{background:radial-gradient(circle at 20% 0,#1e3a5f 0,transparent 38%),linear-gradient(120deg,#080e1a,#102448)}
+.final-cta h2 em,.final-cta .light{color:#60a5fa!important}
+footer{background:#080e1a}
+.instructor{background:#0b1220;color:#f8fafc}
+.instructor .eyebrow,.instructor .role,.instructor em{color:#60a5fa!important}
+.instructor-copy>p:not(.eyebrow):not(.role){color:#cbd5e1}
+.instructor .social-links a{color:#fff!important;border-color:#475569}
+.instructor .stack-tags span{color:#bfdbfe;background:#111d32;border-color:#28466f}
+.portrait{background:#111d32;border:1px solid #253655;border-radius:24px;box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.portrait-inner{width:220px;height:220px;background:url('assets/sarah-zanardi.jfif') center/cover no-repeat;border:5px solid #fff;box-shadow:0 18px 45px rgba(0,0,0,.38)}
+.portrait-inner span{display:none}
+.portrait-inner img{width:100%;height:100%;object-fit:cover;display:block}
+.portrait-dots{opacity:.45;background-image:radial-gradient(#60a5fa 1.4px,transparent 1.4px)}
+.intro-note{background:#eff6ff;border-color:#2563eb}
+.hero-visual .orb-one{background:#eaf2ff}.hero-visual .orb-two{background:#f1f5f9}
+.floating-card span{background:linear-gradient(135deg,#2563eb,#0f4bbd)}
+@media(max-width:650px){.portrait-inner{width:190px;height:190px}.instructor{text-align:left}}
 :root{--ink:#18232d;--muted:#62707a;--blue:#2f6470;--purple:#806b59;--pale:#f5f7f6;--line:#dfe6e3}.stack-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.stack-tags span{padding:5px 9px;border:1px solid #d8e0dc;border-radius:999px;background:#fafbf9;color:#52645f;font-size:10px;font-weight:700}
