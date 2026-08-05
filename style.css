@@ -81,4 +81,4 @@ footer small{border-color:#203452}.back-to-top{background:#2563eb}
 .eyebrow,.role,.text-link,.social-links a,.intro-note span,.audience-list span,.steps span,
 .quick-benefits li:before,.code strong,.code b,.code em,.code i,.cursor{color:#4f9cff!important}
 .stack-tags span{color:#93c5fd!important}
-:root{--ink:#18232d;--muted:#62707a;--blue:#2f6470;--purple:#806b59;--pale:#f5f7f6;--line:#dfe6e3}.stack-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.stack-tags span{padding:5px 9px;border:1px solid #d8e0dc;border-radius:999px;background:#fafbf9;color:#52645f;font-size:10px;font-weight:700}
+:root{--ink:#f8fafc;--muted:#b8c6da;--blue:#4f9cff;--purple:#4f9cff;--pale:#10213d;--line:#2a3e5f}.stack-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.stack-tags span{padding:5px 9px;border:1px solid #31517d;border-radius:999px;background:#142b4b;color:#93c5fd;font-size:10px;font-weight:700}
