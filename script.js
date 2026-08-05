@@ -1,4 +1,5 @@
 const menuButton = document.querySelector('.menu-toggle');
+document.querySelectorAll('.pulse').forEach(element => element.remove());
 const navLinks = document.querySelector('.nav-links');
 menuButton.addEventListener('click', () => {
   const isOpen = navLinks.classList.toggle('open');
