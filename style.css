@@ -82,4 +82,5 @@ footer small{border-color:#203452}.back-to-top{background:#2563eb}
 .quick-benefits li:before,.code strong,.code b,.code em,.code i,.cursor{color:#4f9cff!important}
 .stack-tags span{color:#93c5fd!important}
 .pulse{background:#4f9cff;box-shadow:0 0 0 4px rgba(79,156,255,.2)}
+.pulse{display:none}
 :root{--ink:#f8fafc;--muted:#b8c6da;--blue:#4f9cff;--purple:#4f9cff;--pale:#10213d;--line:#2a3e5f}.stack-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.stack-tags span{padding:5px 9px;border:1px solid #31517d;border-radius:999px;background:#142b4b;color:#93c5fd;font-size:10px;font-weight:700}
