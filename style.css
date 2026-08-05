@@ -75,4 +75,10 @@ em,.eyebrow,.role,.text-link,.quick-benefits li:before,.audience-list span{color
 footer{background:#071122;border-top:1px solid #203452}
 footer small{border-color:#203452}.back-to-top{background:#2563eb}
 @media(max-width:650px){.nav-links{background:#0c1930;border-color:#243755}}
+
+/* Todos os destaques textuais usam exclusivamente azul */
+.hero h1 em,.section-heading h2 em,.section-top h2 em,.audience-intro h2 em,.method h2 em,.benefits h2 em,.instructor h2 em,.final-cta h2 em,
+.eyebrow,.role,.text-link,.social-links a,.intro-note span,.audience-list span,.steps span,
+.quick-benefits li:before,.code strong,.code b,.code em,.code i,.cursor{color:#4f9cff!important}
+.stack-tags span{color:#93c5fd!important}
 :root{--ink:#18232d;--muted:#62707a;--blue:#2f6470;--purple:#806b59;--pale:#f5f7f6;--line:#dfe6e3}.stack-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.stack-tags span{padding:5px 9px;border:1px solid #d8e0dc;border-radius:999px;background:#fafbf9;color:#52645f;font-size:10px;font-weight:700}
