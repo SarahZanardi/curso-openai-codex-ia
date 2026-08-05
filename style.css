@@ -34,4 +34,45 @@ footer{background:#080e1a}
 .hero-visual .orb-one{background:#eaf2ff}.hero-visual .orb-two{background:#f1f5f9}
 .floating-card span{background:linear-gradient(135deg,#2563eb,#0f4bbd)}
 @media(max-width:650px){.portrait-inner{width:190px;height:190px}.instructor{text-align:left}}
+
+/* Tema unificado inspirado na chamada final */
+:root{--ink:#f8fafc;--muted:#b8c6da;--blue:#4f9cff;--purple:#4f9cff;--pale:#10213d;--line:#2a3e5f}
+body{background:#0c1930;color:#f8fafc}
+.site-header{background:rgba(9,20,39,.94);border-color:#243755}
+.site-header.scrolled{box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.brand,.nav-links a,.menu-toggle{color:#f8fafc}
+.brand-mark{background:#4f9cff;color:#071327}
+.menu-toggle span{background:#f8fafc}
+.nav-links a:hover,.nav-links a.active{color:#4f9cff}
+.nav-links a.active:after{background:#4f9cff}
+.hero,.about,.benefits{background:#0c1930}
+.soft-section,.instructor{background:#10213d}
+.trust{background:#091427;border-color:#243755;color:#91a4be}
+.trust div{color:#7f94b1}
+h1,h2,h3,.learning-card h3,.audience-list li{color:#f8fafc}
+em,.eyebrow,.role,.text-link,.quick-benefits li:before,.audience-list span{color:#4f9cff!important}
+.lead,.about-copy,.section-top>p,.audience-intro>p:not(.eyebrow),.learning-card p,.benefits-card>div>p:last-child,.instructor-copy>p:not(.eyebrow):not(.role){color:#b8c6da}
+.button{background:#2563eb;color:#fff;box-shadow:0 12px 28px rgba(20,92,230,.28)}
+.button:hover{background:#3477ee;box-shadow:0 16px 34px rgba(20,92,230,.4)}
+.text-link{border-color:#4b668c}
+.quick-benefits{color:#a9b9cf}
+.code-window,.learning-card{background:#132744;border-color:#294263;box-shadow:0 20px 45px rgba(0,0,0,.18)}
+.window-bar{background:#0d1c33;border-color:#263c5c}.window-bar small,.code{color:#b8c6da}
+.code strong{color:#7dd3fc}.code b,.code em,.code i,.cursor{color:#60a5fa!important}
+.floating-card{background:#132744;border-color:#294263;color:#f8fafc}.floating-card small{color:#91a4be}
+.hero-visual .orb-one{background:#17325b}.hero-visual .orb-two{background:#10294b}
+.intro-note{background:#122a4b;border-color:#4f9cff;color:#c8d5e7}
+.learning-card:hover{box-shadow:0 20px 38px rgba(0,0,0,.3)}
+.learning-card .icon{background:#18345d;color:#60a5fa}
+.accent-card{background:#2563eb;border-color:#4382f2}.accent-card .icon{background:#fff;color:#2563eb}.accent-card p{color:#e5efff}
+.audience-list,.audience-list li{border-color:#2a3e5f}
+.method{background:#091427}.method-heading p:last-child,.steps p{color:#aebed3}.steps li{border-color:#2a3e5f}
+.benefits-card{background:#10213d;border:1px solid #2a3e5f}.benefits ul{color:#d5deeb}
+.portrait{background:#132744;border-color:#2d476d}
+.instructor .stack-tags span,.stack-tags span{background:#142b4b;border-color:#31517d;color:#bfdbfe}
+.final-cta{background:#10213d;border-top:1px solid #2a3e5f}.final-cta h2 em,.final-cta .light{color:#4f9cff!important}.final-cta p:not(.eyebrow){color:#d1dced}
+.button-white{background:#2563eb;color:#fff}.button-white:hover{background:#3477ee}
+footer{background:#071122;border-top:1px solid #203452}
+footer small{border-color:#203452}.back-to-top{background:#2563eb}
+@media(max-width:650px){.nav-links{background:#0c1930;border-color:#243755}}
 :root{--ink:#18232d;--muted:#62707a;--blue:#2f6470;--purple:#806b59;--pale:#f5f7f6;--line:#dfe6e3}.stack-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}.stack-tags span{padding:5px 9px;border:1px solid #d8e0dc;border-radius:999px;background:#fafbf9;color:#52645f;font-size:10px;font-weight:700}
